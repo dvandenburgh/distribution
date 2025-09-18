@@ -8,8 +8,8 @@ SERIAL_DEVICE="/dev/ttyHS0"
 
 # Display usage if wrong parameters
 if [ $# -lt 4 ]; then
-  echo "Usage: $0 <mask_hex> <R> <G> <B>"
-  echo "Example: $0 0F 255 0 0"
+  echo "Usage: $0 <BRIGHTNESS> <R> <G> <B>"
+  echo "Example: $0 255 255 0 0"
   exit 1
 fi
 

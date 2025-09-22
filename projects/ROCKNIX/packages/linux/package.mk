@@ -290,7 +290,6 @@ make_target() {
           ;;
       esac
 
-      #[ "${DEVICE}" != "RK3588" ] && export BUILD_BPF_SKEL=0
       [ "${DEVICE}" != "RK3588" && "${DEVICE}" != "SDM845" ] && export BUILD_BPF_SKEL=0
 
 

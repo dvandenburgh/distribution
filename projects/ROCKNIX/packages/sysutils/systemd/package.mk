@@ -222,7 +222,6 @@ post_makeinstall_target() {
   cp ${PKG_DIR}/scripts/systemd-machine-id-setup ${INSTALL}/usr/bin
   cp ${PKG_DIR}/scripts/userconfig-setup ${INSTALL}/usr/bin
   cp ${PKG_DIR}/scripts/usercache-setup ${INSTALL}/usr/bin
-  cp ${PKG_DIR}/scripts/usercache-watchdog ${INSTALL}/usr/bin
 
   mkdir -p ${INSTALL}/usr/sbin
   cp ${PKG_DIR}/scripts/network-base-setup ${INSTALL}/usr/sbin

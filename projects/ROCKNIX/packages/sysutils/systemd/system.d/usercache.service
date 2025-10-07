@@ -7,7 +7,6 @@ Before=automount.service autostart.service
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/usercache-setup
-ExecStartPost=/bin/sh -c '/usr/bin/usercache-watchdog &'
 RemainAfterExit=yes
 
 [Install]

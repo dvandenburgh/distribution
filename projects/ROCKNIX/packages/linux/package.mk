@@ -32,7 +32,7 @@ case ${DEVICE} in
   *)
     case ${DEVICE} in
       SM8250|SM8550)
-        PKG_VERSION="6.17.3"
+        PKG_VERSION="6.17.4"
       ;;
       H700)
         PKG_VERSION="6.16.9"
